@@ -1,0 +1,22 @@
+backend/
+│
+├── main.py                  # FastAPI entry point
+├── models/                 
+│   └── models.py            # DB models
+│
+├── routes/
+│   ├── alerts.py            # Alert endpoints
+│   ├── users.py             # (If needed)
+│
+├── services/
+│   └── ai_processor.py      # OpenCV + Roboflow logic
+│
+├── database/
+│   └── connection.py        # DB engine setup
+│
+├── static/                  # For any image or video storage
+│
+├── utils/
+│   └── helpers.py           # Utility functions (e.g. timestamp)
+│
+└── requirements.txt
